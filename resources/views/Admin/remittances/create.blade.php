@@ -40,6 +40,23 @@
                                     </div>
                                 </div>
                                 <div class="row mb-4">
+                                    <label class="col-md-3 form-label">نوع :</label>
+                                    <div class="col-md-9">
+                                        <div class="form-group">
+                                            <label class="form-label">نوع درج بارنامه را انتخاب کنید</label>
+                                            <select name="type" class="form-control select2 form-select" data-placeholder="انتخاب یکی">
+                                                <option label="انتخاب"></option>
+                                                <option label="1">حواله ورود اقلام</option>
+                                                <option label="2">حواله خروج اقلام</option>
+                                                <option label="3">حواله کسری اقلام</option>
+                                                <option label="4">حواله اضافه اقلام</option>
+                                                <option label="5">حواله پاشیدنی اقلام</option>
+
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-4">
                                     <label class="col-md-3 form-label">مقدار(کیلوگرم) :</label>
                                     <div class="col-md-9">
                                         <input type="text" name="amount" class="form-control" placeholder="مقدار(کیلوگرم)">
