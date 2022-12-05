@@ -12,6 +12,9 @@ namespace App\enums;
 
 enum TypeEnum
 {
+    /**
+     * test
+     */
     case ENTRYREMITTANCE;
     case EXITREMITTANCE;
     case DEFICITREMITTANCE;
