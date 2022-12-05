@@ -15,6 +15,9 @@ class UserController extends Controller
 {
     private UserService $service;
 
+    /**
+     * @param UserService $service
+     */
     public function __construct(UserService $service)
     {
         $this->service = $service;
